@@ -6,4 +6,3 @@ node_modules
 .dockerignore
 .git
 .gitignore
-.env
