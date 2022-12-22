@@ -1,0 +1,10 @@
+version: "3"
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+
+#Если нужен .env файл, расскомментируйте
+#    env_file:
+#      - ./.env
